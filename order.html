@@ -8,12 +8,12 @@
     <title>Rendelés: </title>
 </head>
 <body>
+
+  <div class="orderBackground">
               <!-- Menü elemek --> 
-               
-    
-              <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+              <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;" >
             
-                <a class="navbar-brand" href="/index.html">Főmenü</a>
+                <a  class="navbar-brand" href="/index.html">Főmenü</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,23 +28,74 @@
                     <li class="nav-item">
                       <a class="nav-link" href="/pictures.html">Képek</a>
                     </li>
-              
+            
+                  
            
                     <li class="nav-item">
                         <a class="nav-link" href="/about.html">Rólunk</a>
                     </li>
-                    
+             
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                   </form>
-                </div >
+                </div>
               </nav>
-    <h3 id="orderH3"> Rendelés </h3>
+    
+              
+              <div class="container position">
+                <div class="row">
+                    <h3>Rendelés</h3>
+                    <div class="col-12"></div>
+                    
+                        <div class="col-12">  </div>
+                        
+                <form action="">
+                <div class="form-group">
+                <label for="top-input">Termék: </label>
+                <select id="topInput" type="text" name="top-input" class="form-control"></select>
+                </div>
+                <div class="form-group">
+
+                <label for="">Mennyiség</label>
+
+                <input type="number" name="amount-input" class="form-control">
+                <small class="form-text text-muted">
+                  Minimum 1 Maximum10 db rendelhető.
+                </small>
+                </div>
+                <div class="form-group">
+                  Fizetendő: <span class="form-amount">0</span>Ft
+                  </div>
+                <div onclick="calcAmount()" type="button" class="button btn btn-primary">Megrendelés</div>
+                 
+                 
+                </form>
+                 
+                </div>
+   
 
 
 
-  </li>
+
+
+
+
+
+              <style>
+                body {
+                  background-image: url(/src/pictures/pusheenflies.jpeg);
+                  background-repeat: no-repeat, repeat;
+                  background-size: 140%;
+                  margin-top: 70px;
+                
+                }
+                .container.position{
+                  max-width: 1900px;
+                }
+                </style>
+  <script src="/js/main.js"></script>
+</div>
 </body>
 </html>
