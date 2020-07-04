@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
+
+
+h3{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div#mainH3{
+    font-size: 24px;
+    margin-top: 70px;
+}
+h3#orderH3{
+    font-size: 24px;
+    margin-top: 70px;
+}
+h3#aboutH3{
+    font-size: 24px;
+    margin-top: 70px;
+}
+h3#picturesH3{
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+div#welcomeDiv{
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    border: ridge;
+    
+}
+
+img#cookMain{
+    width: 20%;
+  position: relative;
+  left: 700px;
+  top: -70px;
+}
+td#close{
+    color:red;
+    font-weight: bold;
+}
