@@ -35,6 +35,7 @@ div#welcomeDiv{
     width: 50%;
     height: 200px;
     border: ridge;
+   
     
 }
 
@@ -47,4 +48,10 @@ img#cookMain{
 td#close{
     color:red;
     font-weight: bold;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
 }
