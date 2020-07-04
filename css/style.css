@@ -55,3 +55,6 @@ th{
 td{
     text-align: center;
 }
+div#spaceholder{
+    margin-top: 100px;
+}
