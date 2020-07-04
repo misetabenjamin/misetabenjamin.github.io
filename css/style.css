@@ -60,7 +60,22 @@ td#close{
 }
 th{
     text-align: center;
+    
 }
 td{
     text-align: center;
+}
+th#Opentable{
+color: #1D7715;
+font-size: 50px;
+}
+p#asd{
+    font-size: 100px;
+}
+body#orderBody{
+
+    background-image: url(/src/pictures/pusheenflies.jpeg);
+    background-repeat: no-repeat, repeat;
+    background-size: 140%;
+    margin-top: 70px;
 }
